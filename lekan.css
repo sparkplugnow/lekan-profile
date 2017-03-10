@@ -1,0 +1,46 @@
+body{
+  background-color: #ceaccc;
+}
+
+#profile{
+  height: 70%;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  background-color: white;
+}
+
+.name{
+  padding-top: 20%;
+}
+
+h3{color: #692B5B;}
+
+img{
+  position: absolute;
+  top: -46px;
+  left: 60px;
+}
+
+@media only screen and (min-device-width: 1024px) {
+  body{
+    background-color: #ceaccc;
+  }
+  #profile{
+    height: 90%;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+  }
+  img{
+    position: absolute;
+    top: -46px;
+    left: 230px;
+  }
+}
+
